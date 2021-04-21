@@ -18,4 +18,5 @@ public class PaymentPaidListener {
     public void handler(PaymentCreatedEvent paymentCreatedEvent) {
         checkoutService.updateStatus(paymentCreatedEvent.getCheckoutCode().toString(), CheckoutEntity.Status.APPROVED);
     }
+
 }

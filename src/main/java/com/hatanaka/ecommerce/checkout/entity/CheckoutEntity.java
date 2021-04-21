@@ -55,6 +55,7 @@ public class CheckoutEntity {
 
     public enum Status {
         CREATED,
-        APPROVED
+        APPROVED,
+        CANCELED
     }
 }
